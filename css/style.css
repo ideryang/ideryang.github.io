@@ -2,21 +2,19 @@
 Evan's personal website
 
 */
-@font-face {
-  font-family: 'bitterregular';
-  src: url('bitter-regular-webfont.woff2') format('woff2'),
-       url('bitter-regular-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
+* {
+	-webkit-text-size-adjust:	none;
+	-webkit-font-smoothing:antialiased;
+	text-rendering:optimizelegibility !important;
 }
 
 body {
-  font-family:'bitterregular', "Hiragino Mincho ProN W6", "HiraMinProN-W6", "Yu Mincho Demibold", "Kozuka Mincho Pro B", "KozMinPro-Bold", MinionPro-Capt,sans-serif, Arial, Helvetica ;
+  font-family: 'San Francisco', -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height:1.7em;
   color:#000000;
-  background:#FFFFFF;
-  margin:70px;
+  background:#FCFCFC;
+  margin:70px 0px 0px 50px;
   display: block;
 }
 
@@ -50,6 +48,7 @@ body {
 .project_content {
   width:80%;
   max-width:640px;
+  margin-left: 20px;
 }
 
 .main-nav {
@@ -62,7 +61,7 @@ div#content {
 }
 
 h1 {
-  font-family:'bitterregular', "Hiragino Mincho ProN W6", "HiraMinProN-W6", "Yu Mincho Demibold", "Kozuka Mincho Pro B", "KozMinPro-Bold", MinionPro-Capt,sans-serif, Arial, Helvetica ;
+	font-family: 'San Francisco', -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 24px;
   font-weight: 500;
   line-height: 4.2rem;
@@ -75,7 +74,7 @@ h1.txt-light span {
 }
 
 h2 {
-  font-family:'bitterregular', "Hiragino Mincho ProN W6", "HiraMinProN-W6", "Yu Mincho Demibold", "Kozuka Mincho Pro B", "KozMinPro-Bold", MinionPro-Capt,sans-serif, Arial, Helvetica ;
+  font-family: 'San Francisco', -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color:#000000;
   font-size:3rem;
   margin-bottom:2.8em;
@@ -105,7 +104,7 @@ h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {margin:0;}
 
 ul {
   display: flex;
-  font-family:'bitterregular', "Hiragino Mincho ProN W6", "HiraMinProN-W6", "Yu Mincho Demibold", "Kozuka Mincho Pro B", "KozMinPro-Bold", MinionPro-Capt,sans-serif, Arial, Helvetica ;
+  font-family: 'San Francisco', -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -123,68 +122,75 @@ li a {
 }
 
 li a.active {
-    color: #000000;
+  color: #000000;
 }
 
 li a:hover:not(.active) {
-    color: #000000;
+  color: #000000;
 }
 
 
 /* CSS for Project */
 
-div.img {
-    border: 0px solid #ccc;
-}
-
-div.img:hover {
-    opacity: 0.8;
-    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-}
-
-div.img img {
-    width: 100%;
-    height: auto;
-}
-
-div.desc {
-    text-align: left;
-}
-
-div.date{
-    color:#999999
-}
-
-* {
-    box-sizing: border-box;
-}
-
 .responsive {
-    float: left;
-    width: 24.99999%;
+  display: inline-block;
+	width: 355px;
+	height:480px;
+	box-shadow: 0 20px 20px rgba(0, 0, 0, .08);
+  margin: 20px;
 }
 
-/*div.responsive:hover {
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-  opacity: 0.99;
-}*/
-
-
-@media only screen and (max-width: 700px){
-    .responsive {
-        width: 49.99999%;
-        margin: 6px 0;
-    }
+.responsive_img {
+  display: block;
+  float: left;
+  background-position: 50% 0%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  box-sizing: border-box;
+  clear: both;
+  cursor: pointer;
+  width: 355px;
+  height: 296px;
+  padding: 20px;
 }
 
-@media only screen and (max-width: 500px){
-    .responsive {
-        width: 100%;
-    }
+.responsive_body{
+  display: block;
+  float: left;
+  box-sizing: border-box;
+  clear: both;
+  padding: 20px 20px 0px 20px;
+  width: 355px;
 }
 
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
+.responsive_title {
+  text-align: left;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 12px;
+  padding: 0px;
+}
+
+.responsive_description{
+  color:#999999;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 20px;
+}
+
+.responsive_footer{
+  display:inline-block;
+  float: left;
+  box-sizing: border-box;
+  width: 355px;
+  height: 46px;
+  margin-top: 14px;
+  padding: 14px 20px 0px 20px;
+  border-top-color: rgb(233, 235, 238);
+  border-top-style: solid;
+  border-top-width: 1px;
+  color:#999999;
+  font-size: 11px;
+  font-weight: normal;
+  line-height: 20px;
+}
