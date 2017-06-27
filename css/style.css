@@ -14,7 +14,7 @@
 body{
 	margin: 0 auto;
   padding:0 auto;
-	background-color: #0b0c11;
+	background-color: #FFFFFF;
 	font-family: 'maison_neuelight','Roboto', sans-serif;
 }
 
@@ -25,7 +25,7 @@ body{
 }
 
 .banner{
-  color: white;
+  color: #F8F8F8;
   text-align: center;
   height: 30px;
   background-color: #FFE267;
@@ -112,9 +112,9 @@ div.picture3 {
 
 h1{
 font-family: 'maison_neuelight','Roboto', sans-serif;
-color: white;
+color: #303336;
 line-height: 80px;
-font-weight: 100;
+font-weight: 500;
 font-size: 60px;
 }
 
@@ -122,14 +122,14 @@ h3{
 	font-size: 18px;
   font-family: 'maison_neuelight','Roboto', sans-serif;
   font-weight: 200;
-	color: #6d727e;
+	color: #303336;
 }
 
 p{
 font-family: 'maison_neuelight','Roboto', sans-serif;
 font-size: 19px;
 line-height: 32px;
-color: #6d727e;
+color: #303336;
 width: 550px;
 }
 
@@ -145,7 +145,7 @@ p.about{
 }
 
 .about a:hover{
-  color: #6d727e;
+  color: #606B7B;
 }
 
 
@@ -157,7 +157,7 @@ a{
 
 a:hover{
 		text-decoration: none;
-color: white;
+color: #606B7B;
 	    cursor: pointer;
 
 }
@@ -202,7 +202,7 @@ color: #6d727e;
 
   .get-touch a:hover{
   text-decoration: none;
-  color: white;
+  color: #303336;
   cursor: pointer;}
 
   .about-me-mobile{
@@ -224,14 +224,14 @@ display: none;
 }
 
 .about-me a{
-color: #6d727e;
+  color: #6d727e;
   font-weight: 200;
   transition: 0.5s;
 }
 
 .about-me a:hover{
 text-decoration: none;
-color: white;
+color: #303336;
 cursor: pointer;
 }
 
@@ -242,7 +242,7 @@ width: 180px;
 font-size: 20px;
 font-family: 'maison_neuelight','Roboto', sans-serif;
 line-height: 32px;
-color: #ffffff;
+color: #303336;
 }
 
 
@@ -301,7 +301,7 @@ color: #9EA5B6;
   width: 110px;
   font-family: 'maison_neuelight','Roboto', sans-serif;
   line-height: 26px;
-  color: #ffffff;
+  color: #303336;
   font-weight: 300;
   margin-bottom: 4px;
 }
@@ -321,10 +321,10 @@ color: #9EA5B6;
 
 
 .list_item {
-  background: white;
+  background: #F8F8F8;
   color: white;
   padding: 30px 50px;
-  border-radius: 2px;
+  border-radius: 4px;
   display: inline-block;
   height: 350px;
   margin: 6px 4px;
@@ -350,13 +350,13 @@ color: #9EA5B6;
 	font-size: 20px;
   font-family: 'maison_neuelight','Roboto', sans-serif;
 	line-height: 26px;
-	color: #ffffff;
+	color: #5c9cf5;
     transition: 0.5s;
 }
 
 .mail a:hover{
   text-decoration: none;
-  color: white;
+  color: #303336;
   cursor: pointer;
 }
 
@@ -469,7 +469,7 @@ footer{
     width: 100% !important;}
 
     .banner{
-      color: white;
+      color: #606B7B;
       text-align: center;
       height: 30px;
       background-color: #FFE267;
@@ -486,7 +486,7 @@ footer{
     	font-size: 24px;
       font-family: 'maison_neuelight','Roboto', sans-serif;
     	line-height: 26px;
-    	color: #ffffff;
+    	color: #5c9cf5;
     }
 
 .social_2{
@@ -550,14 +550,14 @@ display: none;
       width: 110px;
       font-family: 'maison_neuelight','Roboto', sans-serif;
       line-height: 32px;
-      color: #ffffff;
+      color: #303336;
       font-weight: 300;
       margin-bottom: 4px;
     }
 
     .about-me-mobile a:hover{
     text-decoration: none;
-    color: white;
+    color: #303336;
     cursor: pointer;
     transition: 0.6s;
     }
