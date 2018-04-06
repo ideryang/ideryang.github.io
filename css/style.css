@@ -153,11 +153,12 @@ p.about{
 a{
 	text-decoration: none;
     transition: 0.5s;
+    color: #303336
 }
 
 a:hover{
 		text-decoration: none;
-color: #606B7B;
+color: #999999;
 	    cursor: pointer;
 
 }
@@ -196,17 +197,17 @@ color: #606B7B;
 }
 
 .get-touch a{
-color: #6d727e;
+  color: #303336;
   font-weight: 200;
   transition: 0.5s;}
 
-  .get-touch a:hover{
+.get-touch a:hover{
   text-decoration: none;
-  color: #303336;
+  color: #999999;
   cursor: pointer;}
 
-  .about-me-mobile{
-display: none;
+.about-me-mobile{
+  display: none;
   }
 
 .about-me {
@@ -242,7 +243,7 @@ width: 180px;
 font-size: 20px;
 font-family: 'maison_neuelight','Roboto', sans-serif;
 line-height: 32px;
-color: #303336;
+color: #ffffff;
 }
 
 
@@ -301,7 +302,7 @@ color: #9EA5B6;
   width: 110px;
   font-family: 'maison_neuelight','Roboto', sans-serif;
   line-height: 26px;
-  color: #303336;
+  color: #ffffff;
   font-weight: 300;
   margin-bottom: 4px;
 }
@@ -344,14 +345,14 @@ color: #9EA5B6;
 }
 
 .mail a{
-    font-weight: 200;
+  font-weight: normal;
 	width: 281px;
 	height: 26px;
 	font-size: 20px;
   font-family: 'maison_neuelight','Roboto', sans-serif;
 	line-height: 26px;
-	color: #5c9cf5;
-    transition: 0.5s;
+	color: #3E82F7;
+  transition: 0.5s;
 }
 
 .mail a:hover{
@@ -550,7 +551,7 @@ display: none;
       width: 110px;
       font-family: 'maison_neuelight','Roboto', sans-serif;
       line-height: 32px;
-      color: #303336;
+      color: #ffffff;
       font-weight: 300;
       margin-bottom: 4px;
     }
