@@ -1,21 +1,15 @@
 @font-face {
-    font-family: 'maison_neuelight';
-    src: url('font/maisonneue-light-trial-webfont.eot');
-    src: url('font/maisonneue-light-trial-webfont.eot?#iefix') format('embedded-opentype'),
-         url('font/maisonneue-light-trial-webfont.woff2') format('woff2'),
-         url('font/maisonneue-light-trial-webfont.woff') format('woff'),
-         url('font/maisonneue-light-trial-webfont.ttf') format('truetype'),
-         url('font/maisonneue-light-trial-webfont.svg#maison_neuelight') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
+  font-family:'PT Serif Bold';
+  src: url("font/PT Serif Bold.ttf") format('truetype');
+  font-weight: bold;
+  font-style: normal;
 }
 
 body{
 	margin: 0 auto;
   padding:0 auto;
 	background-color: #FFFFFF;
-	font-family: 'maison_neuelight','Roboto', sans-serif;
+	font-family: 'PT Serif Bold',Georgia,serif,sans-serif;
 }
 
 .width{
@@ -32,7 +26,7 @@ body{
   padding-top: 16px;
   padding-bottom: 5px;
   color: #0b0c11;
-font-family: 'maison_neuelight', 'Roboto', sans-serif;
+  font-family: 'PT Serif',Georgia,serif,sans-serif;
 }
 
 .banner a{
@@ -50,7 +44,7 @@ font-family: 'maison_neuelight', 'Roboto', sans-serif;
 
 a.back{
   color: #4E5259;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'PT Serif',Georgia,serif,sans-serif;
   font-weight: 200;
   font-size: 13px;
 text-transform:uppercase;}
@@ -111,7 +105,7 @@ div.picture3 {
 }
 
 h1{
-font-family: 'maison_neuelight','Roboto', sans-serif;
+font-family: 'PT Serif Bold','Roboto', sans-serif;
 color: #303336;
 line-height: 80px;
 font-weight: 500;
@@ -120,13 +114,13 @@ font-size: 60px;
 
 h3{
 	font-size: 18px;
-  font-family: 'maison_neuelight','Roboto', sans-serif;
+  font-family: 'PT Serif Bold','Roboto', sans-serif;
   font-weight: 200;
 	color: #303336;
 }
 
 p{
-font-family: 'maison_neuelight','Roboto', sans-serif;
+font-family:'PT Serif Bold',Georgia,serif,sans-serif;
 font-size: 19px;
 line-height: 32px;
 color: #303336;
@@ -241,7 +235,7 @@ h2{
 font-weight: 200;
 width: 180px;
 font-size: 20px;
-font-family: 'maison_neuelight','Roboto', sans-serif;
+font-family: 'PT Serif Bold','Roboto', sans-serif;
 line-height: 32px;
 color: #ffffff;
 }
@@ -276,7 +270,7 @@ font-weight: 200;
 width: 281px;
 height: 26px;
 font-size: 19px;
-font-family: 'maison_neuelight','Roboto', sans-serif;
+font-family: 'PT Serif Bold','Roboto', sans-serif;
 line-height: 26px;
 color: #9EA5B6;
 }
@@ -300,7 +294,7 @@ color: #9EA5B6;
 .list_item h2{
   font-size: 20px;
   width: 110px;
-  font-family: 'maison_neuelight','Roboto', sans-serif;
+  font-family: 'PT Serif Bold','Roboto', sans-serif;
   line-height: 26px;
   color: #ffffff;
   font-weight: 300;
@@ -349,7 +343,7 @@ color: #9EA5B6;
 	width: 281px;
 	height: 26px;
 	font-size: 20px;
-  font-family: 'maison_neuelight','Roboto', sans-serif;
+  font-family: 'PT Serif Bold','Roboto', sans-serif;
 	line-height: 26px;
 	color: #3E82F7;
   transition: 0.5s;
@@ -454,7 +448,7 @@ footer{
     width: 100% !important;}
 
     p{
-    font-family: 'maison_neuelight','Roboto', sans-serif;
+    font-family: 'PT Serif Bold','Roboto', sans-serif;
     font-size: 24px;
     line-height: 38px;
     margin: 0 auto;
@@ -477,7 +471,7 @@ footer{
       padding-top: 12px;
       padding-bottom: 10px;
       color: #0b0c11;
-    font-family: 'maison_neuelight', 'Roboto', sans-serif;
+    font-family: 'PT Serif Bold', 'Roboto', sans-serif;
     }
 
     .mail a{
@@ -485,7 +479,7 @@ footer{
       font-weight: 200;
     	height: 26px;
     	font-size: 24px;
-      font-family: 'maison_neuelight','Roboto', sans-serif;
+      font-family: 'PT Serif Bold','Roboto', sans-serif;
     	line-height: 26px;
     	color: #5c9cf5;
     }
@@ -504,7 +498,7 @@ display: none;
 
 
     p{
-    font-family: 'maison_neuelight','Roboto', sans-serif;
+    font-family: 'PT Serif Bold','Roboto', sans-serif;
     font-size: 24px;
     line-height: 38px;
     margin: 0 auto;
@@ -523,7 +517,7 @@ display: none;
     h3{
     	font-size: 22px;
       text-align: center;
-      font-family: 'maison_neuelight','Roboto', sans-serif;
+      font-family: 'PT Serif Bold','Roboto', sans-serif;
       font-weight: 200;
     	color: #6d727e;
     }
@@ -549,7 +543,7 @@ display: none;
     .list_item h2{
       font-size: 26px;
       width: 110px;
-      font-family: 'maison_neuelight','Roboto', sans-serif;
+      font-family: 'PT Serif Bold','Roboto', sans-serif;
       line-height: 32px;
       color: #ffffff;
       font-weight: 300;
