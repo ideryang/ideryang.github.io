@@ -99,10 +99,11 @@ div.picture3 {
 }
 
 h1{
-font-family: 'Clearface LT Bold Regular','Times', SimSun, 宋体;
+font-family: source-han-serif-sc, serif,'Times', SimSun, 宋体;
 color: #303336;
 line-height: 80px;
 font-weight: 500;
+font-style: normal;
 font-size: 60px;
 }
 
