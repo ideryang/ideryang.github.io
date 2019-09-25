@@ -1,100 +1,115 @@
-<!DOCTYPE html>
-<html>
 
-<head>
-  <script>
-  (function(d) {
-    var config = {
-      kitId: 'ema0hyz',
-      scriptTimeout: 3000,
-      async: true
-    },
-    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
-  })(document);
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<body>
+
+  <header>
+
+    <link rel="stylesheet" type="text/css" href="/Users/evan/Dropbox/web/css/style.css"/>
+
+    <aside id="contact-details">
+      <dl class="account">
+
+        <dt>Say Hello</dt>
+          <dd itemprop="email"><a href="mailto:ideryang@gmail.com">ideryang@gmail.com</a>
+          </dd>
+
+        <dt>Follow</dt>
+          <dd><a href="https://www.instagram.com/designerevan/" target="_blank">designerevan</a>
+          </dd>
+      </dl>
+
+      <address itemprop="address" class="column-2">
+        <a href="https://goo.gl/maps/tVdZiU4wUaNuoTgD8" target="_blank">969 West Wen Yi Road<br>Yu Hang DIstrict 311121</a></address>
+    </aside>
+
+    <nav>
+      <ul>
+        <li>
+            <a data-section="what-I-do">What I do.</a>
+        </li>
+
+        <li>
+            <a data-section="what-I-dont">What I don't.</a>
+        </li>
+
+        <li>
+            <a data-section="what-I-want">What I want.</a>
+        </li>
+
+        <li>
+            <a data-section="how-I-work">How I work.</a>
+        </li>
+
+        <li>
+            <a data-section="selected-projects">Selected projects.</a>
+        </li>
+
+
+        <li>
+            <a data-section="contact">Contact.</a>
+        </li>
+
+      </ul>
+    </nav>
+
+  <script type="text/javascript">
+      // click event on a element in mynav
+      $(function() {
+        $('nav a').click(function() {
+          // Get the section to show
+          var $section = $('#' + $(this).data('section'));
+
+          // If its already visible, do nothing.
+          // Otherwise, hide the others and then fade in the desired section.
+          if (!$section.is(':visible')) {
+            $('.hideable-section').hide();
+            $section.fadeIn();
+          }
+        });
+      });
   </script>
 
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <title>Yangshuang | Designer</title>
-  <meta name="author" content="Yangshuang">
-  <meta name="description" content="Evan Yang, Product Designer at Alibaba">
-  <meta name="viewport" content="width=device-width, user-scalable=no">
-  <link rel="stylesheet" type="text/css" href="css/style.css"/>
-</head>
-
-<body class="width">
 
 
-<div class="width" style="">
+  </header>
 
-<div class="about-me-mobile"><a href="http://yangshuang.me/about.html">About me</a></div>
+  <div id="what-I-do" class="hideable-section">
+    <p>I am an independent and collaborative designer based in Hangzhou, China @Alibaba Group. <br> <br> I work with a diverse range of projects and partners across multiple platforms, specialising in ux design, motion graphics and video montage.<br><br>
+    <a href="selected-projects">View a selection of recent projects</a></p></div>
 
-<div class="picture1"> </div>
-<div class="about-me"><a href="http://yangshuang.me/about.html">About me</a></div>
-
-<div class="block_text">
-
-
-<a href="http://yangshuang.me"><h1>Evan Yang<br>Product Designer</h1></a>
-<p>
-  Designer from Hangzhou, China. Focusing on creating minimal interfaces for Web and Mobile.
-  Currently responsible for the design at AliExpress, Alibaba Group.</p>
-</div>
-
-<div class="container_gallery">
-<div class="gallery_list">
-<div class="gallery_list column_4">
-
-  <a href="http://yangshuang.me/aliexpressv6.0">
-  <div class="list_item" style="background-image: url('http://ideryang.oss-cn-hangzhou.aliyuncs.com/Cover/aliexpress.png');">
-  <h2>AliExpress App Design</h2>
+  <div id="what-I-dont" class="hideable-section">
+     <p>
+      Wash clothes in Rainy days. Buy things too often. Use mobile phone that much. Take Cephalosporin. Wear pink clothes. Bother people too often. Sleep eaily. Jump queues. Smoke. Cook.
+    </p>
   </div>
-  </a>
 
-<a href="http://cuzjs.github.io/docs/components/button.html"target="_blank">
-<div class="list_item" style="background-image: url('http://ideryang.oss-cn-hangzhou.aliyuncs.com/Cover/seller.jpg');">
-<h2>AliExpress Seller</h2>
-</div>
-</a>
-
-
-<a href="http://yangshuang.me/payment">
-<div class="list_item" style="background-image: url('http://ideryang.oss-cn-hangzhou.aliyuncs.com/Cover/payment.png');">
-  <h2>AliExpress Payment System</h2>
+  <div id="what-I-want" class="hideable-section">
+    <p>To create work that communicates. To make things simpler, smarter, more helpful, more beautiful and more fun. To think before we act. To work with people, not for people. To be part of change.</p>
   </div>
-</a>
 
-<a href="http://yangshuang.me/AR">
-<div class="list_item" style="background-image: url('http://ideryang.oss-cn-hangzhou.aliyuncs.com/Cover/ar.png');">
-  <h2>Augmented Reality Measure</h2>
+  <div id="how-I-work" class="hideable-section">
+    <p>MECE (Mutually Exclusive, Collectively Exhaustive) principle is one of the main way to help me think and understand.<br><br>I believe that to truly solve a problem you need to understand it, pull it apart, then put it back together again. You need to look at it from every angle and try to delivery possible solution. You need to discuss and debate it. And I believe in doing all of these things together.<br><br>Consideration, conversation and collaboration.<br><br>That’s my process.</p>
   </div>
-</a>
 
-<a href="framerworks.html">
-<div class="list_item" style="background-image:url('http://ideryang.oss-cn-hangzhou.aliyuncs.com/Cover/framer.gif');">
-  <h2>Framer Works</h2>
+  <div id="selected-projects" class="hideable-section">
+    <p>
+      <a href="checkout.html">Redesign AliExpress for Checkout Process</a><span>Sep 2018</span><br>
+      <a href="signin.html">Redesign AliExpress for Sign in & Sign up</a><span>Mar 2018</span><br>
+      <a href="size.html">Size Library</a><span>Mar 2018</span><br>
+      <a href="app6.0.html">AliExpress v6.0</a><span>Mar 2018</span><br>
+      <a href="shout.html">Shout for Coupon AliExpress 11.11</a><span>Nov 2017</span><br>
+      <a href="framerworks.html">Framer Works</a><span>2017-2018</span><br>
+    </p>
   </div>
-</a>
 
 
-<a href="http://yangshuang.me/Articles">
-<div class="list_item" style="background-image: url('http://ideryang.oss-cn-hangzhou.aliyuncs.com/Cover/article.png');">
-  <h2>More Articles</h2>
+  <div id="contact" class="hideable-section">
+    <p><a href="mailto:ideryang@gmail.com">Hello to ideryang@gmail.com</a><br><a href="https://www.instagram.com/designerevan/" target="_blank">Instaram</a>
+    </p>
   </div>
-</a>
-
-</div>
-</div>
-</div>
-
-<footer>
-<div class="mail">
-<h3>Get in touch —</h3>
-<a href="mailto:ideryang@gmial.com" onclick="_gs('event', '[Footer] Mail')">ideryang@gmail.com</a>
-</div>
-</footer>
-
-</div>
 
 
 
-</body></html>
+
+</body>

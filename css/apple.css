@@ -1,0 +1,208 @@
+/*
+Design and development by Evan
+*/
+
+@import url("//hello.myfonts.net/count/3a2750");
+
+
+@font-face {font-family: 'ITCClearface';font-weight: bold;font-style: normal;src: url('webfonts/3A2750_0_0.eot');src: url('webfonts/3A2750_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3A2750_0_0.woff2') format('woff2'),url('webfonts/3A2750_0_0.woff') format('woff'),url('webfonts/3A2750_0_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'ITCClearface';font-weight: normal;font-style: normal;src: url('webfonts/3A2750_1_0.eot');src: url('webfonts/3A2750_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3A2750_1_0.woff2') format('woff2'),url('webfonts/3A2750_1_0.woff') format('woff'),url('webfonts/3A2750_1_0.ttf') format('truetype');}
+
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+h1 {
+  color:#17181A;
+  font-family: "ITCClearface", times, -apple-system, BlinkMacSystemFont, "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: bold;
+  font-style: normal;
+  font-size: 3.8em;
+  line-height:normal;
+  text-align: center; /*让div内部文字居中*/
+  margin-top: 50px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+h2{
+  color:#17181A;
+  font-family: "ITCClearface", times, -apple-system, BlinkMacSystemFont, "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: bold;
+  font-style: normal;
+  font-size: 1.75em;
+  line-height: 2.0;
+  width: 100%;
+  max-width:520px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  margin-bottom: 24px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+
+h3{
+  font-size: 1.375em;
+  font-weight: 500;
+}
+
+h4{
+  font-family: "Roboto Mono", "PT Mono", -apple-system, BlinkMacSystemFont, "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 2.5em;
+  font-weight:400;
+  line-height: normal;
+  margin-top: 0em;
+  margin-bottom: 30px;
+}
+
+h5{
+  font-size: 1.375em;
+  font-weight: 400;
+  color:#17181A;
+  line-height: 27px;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue",Helvetica,Arial,sans-serif;
+  width: 100%;
+  max-width:520px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 75px;
+  margin-bottom: 16px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+
+body {
+  background-color: #FAFAFA;
+  color:#17181A;
+  line-height: 27px;
+	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight:300;
+	padding-bottom: 25px;
+	margin-bottom: 25px;
+}
+
+p {
+  width: 100%;
+  max-width:520px;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+span{
+  font-size: 1em;
+}
+
+
+.banner {
+  display: block;
+  margin: 0;
+}
+
+.information{
+  justify-content:center;//子元素水平居中
+  align-items:center;//子元素垂直居中
+  display:-webkit-flex;
+  padding-top: 150px;
+  padding-bottom: 130px;
+  display:flex;
+  /*background-color: #B55546;*/
+  color: #17181A;
+}
+
+.overview{
+  margin-right: 4.68em;
+  max-width: 520px;
+}
+.team{
+  margin-right: 4.68em;
+}
+
+.full{
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.large{
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.middle{
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.small{
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.narrow{
+  max-width: 520px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+
+
+.mail{
+  margin-left: 20%;
+}
+
+
+
+a {outline:none !important; text-decoration:none;border-bottom:1px #17181A solid;}
+a {padding-bottom: 4px;}
+a:link {color:#17181A;}
+a:visited {color:#17181A;}
+a:hover {color:#312EFF;}
+a:active {color:#17181A; }
