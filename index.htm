@@ -26,7 +26,7 @@
     <nav>
       <ul>
         <li>
-            <a data-section="what-I-do">What I do.</a>
+            <a data-section="what-I-do" class="active">What I do.</a>
         </li>
 
         <li>
@@ -59,6 +59,8 @@
         $('nav a').click(function() {
           // Get the section to show
           var $section = $('#' + $(this).data('section'));
+          $(this).parent().siblings().children().removeClass('active');
+          $(this).addClass('active');
 
           // If its already visible, do nothing.
           // Otherwise, hide the others and then fade in the desired section.
