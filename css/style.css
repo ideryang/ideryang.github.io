@@ -73,6 +73,9 @@ a:hover {
   color:#283239;
 }
 
+.active{
+  color:#283239;
+}
 
 .hideable-section {
   display: none;
