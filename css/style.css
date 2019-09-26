@@ -101,6 +101,10 @@ h2{
   margin-top: 20px;
 }
 
+h2 a{
+  color: #283239;
+}
+
 p{
   font-size: 2rem;
 	line-height:1.2;
@@ -119,6 +123,7 @@ span{
   margin-left: 20px;
   color: #283239;
 }
+
 
 
 #selected-projects{
