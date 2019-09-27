@@ -1,5 +1,5 @@
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 
 <body>
 
@@ -20,7 +20,7 @@
       </dl>
 
       <address itemprop="address" class="column-2">
-        <a href="https://goo.gl/maps/tVdZiU4wUaNuoTgD8" target="_blank">969 West Wen Yi Road<br>Yu Hang DIstrict 311121</a></address>
+        <a href="https://goo.gl/maps/tVdZiU4wUaNuoTgD8" target="_blank">All Content © Evan<br> Design & Development by Evan</a></address>
     </aside>
 
     <nav>
@@ -77,12 +77,33 @@
   </header>
 
   <div id="what-I-do" class="hideable-section">
-    <p>I am an independent and collaborative designer based in Hangzhou, China @Alibaba Group. <br> <br> I work with a diverse range of projects and partners across multiple platforms, specialising in ux design, motion graphics and video montage.<br><br>
+    <p>I am an independent and collaborative designer based in Hangzhou, China at Alibaba Group. <br> <br> Currently responsible for the internationalisation and localisation of Alibaba Group. I am the lead product designer to build middle office platforms and support global business like AliExpress, Lazada, Alibaba.com, AliPay as well as Tmall. I also design for the global markets based on the business strategy of AliExpress.<br><br>
+    <div class="selected">
+      <a href="javascript:(0);" id="view-selected-projects"> View Selected Projects </a>
+    </div>
   </p></div>
+
+  <script type="text/javascript">
+      // click event on a element in mynav
+      $(function() {
+        $('select').click(function() {
+          // Get the section to show
+          $(this).parent().siblings().children().removeClass('active');
+          $(this).addClass('active');
+
+          // If its already visible, do nothing.
+          // Otherwise, hide the others and then fade in the desired section.
+          if (!$section.is(':visible')) {
+            $('.hideable-section').hide();
+            $section.fadeIn();
+          }
+        });
+      });
+  </script>
 
   <div id="what-I-dont" class="hideable-section">
      <p>
-      Wash clothes in Rainy days. Buy things too often. Use mobile phone that much. Take Cephalosporin. Wear pink clothes. Bother people too often. Sleep eaily. Jump queues. Smoke. Cook.
+      Wash clothes in Rainy days. Use mobile phone that much. Take Cephalosporin. Wear pink clothes. Bother people too often. Sleep eaily. Jump queues. Smoke. Cook. Cry.
     </p>
   </div>
 
@@ -96,24 +117,32 @@
 
   <div id="selected-projects" class="hideable-section">
     <h2>
-      <a href="checkout.html"> Redesign AliExpress for Checkout Process → </a><br><br>
-      <a href="signin.html">Redesign AliExpress for Sign in & Sign up → </a><br><br>
-      <a href="size.html">Size Library → </a><br><br>
-      <a href="shout.html">  Shout for Coupon AliExpress 11.11 → </a><br><br>
-      <a href="app6.0.html"> AliExpress 6.0 →</a><br><br>
-      <a href="google.html"> Google Editors Choice →</a><br><br>
-      <a href="framerworks.html"> Framer Works →</a><br><br>
+      <a href="checkout.html" target="_blank"> Redesign AliExpress for Checkout Process<span>Sep 2018</span> </a><br><br>
+      <a href="signin.html" target="_blank">Redesign AliExpress for Sign in & Sign up<span>Mar 2018</span> </a><br><br>
+      <a href="size.html" target="_blank">Size Library<span>Mar 2018</span> </a><br><br>
+      <a href="shout.html" target="_blank">  Shout for Coupon AliExpress 11.11<span>Nov 2017</span> </a><br><br>
+      <a href="app6.0.html" target="_blank"> AliExpress 6.0<span>Mar 2018</span> </a><br><br>
+      <a href="google.html" target="_blank"> Google Editors Choice<span>Oct 2016</span> </a><br><br>
+      <a href="framerworks.html" target="_blank"> Framer Works <span>2016-2018</span> </a><br><br>
 
     </h2>
   </div>
 
 
   <div id="contact" class="hideable-section">
-    <h2>Hello to<a href="mailto:ideryang@gmail.com"> ideryang@gmail.com</a><br><a href="https://www.instagram.com/designerevan/" target="_blank">Instaram</a>
+    <h2><a href="mailto:ideryang@gmail.com"> Write me an email</a><br>
+      <a href="https://www.instagram.com/designerevan/" target="_blank">Connect on Linkedin</a>
+
     </h2>
   </div>
 
-
+  <script>
+    $(function() {
+      $('#view-selected-projects').click(function() {
+        $('nav a:eq(4)').trigger('click')
+      })
+    })
+  </script>
 
 
 </body>
