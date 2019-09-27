@@ -108,6 +108,10 @@ h2 a{
   color: #283239;
 }
 
+h2 a:hover{
+  color:#000000;
+}
+
 p{
   font-size: 2rem;
 	line-height:1.2;
@@ -124,11 +128,19 @@ span{
   font-family:'SF-Pro-Text', sans-serif, Arial, Helvetica;
   font-size: 1rem;
   margin-left: 20px;
-  color: #283239;
+  color: #CDD8DE;
 }
 
 
-
-#selected-projects{
-  margin-top: 10px;
+#view-selected-projects{
+  font-size: 2rem;
+  line-height:1.2;
+  font-family: "ITCClearface", Georgia, -apple-system, BlinkMacSystemFont, "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  max-width:860px;
+  margin-right:.25em;
+  display:inline-block;
+  position: relative;
+  margin-top: 20px;
 }
