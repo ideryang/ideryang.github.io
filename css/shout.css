@@ -291,6 +291,11 @@ a:active {color:#283239; }
 
 
 @media only screen and (max-width: 520px) {
+  h1{
+    text-align: left; /*让div内部文字居中*/
+    margin-bottom: 120px;
+  }
+
   body {
     margin-left: 32px;
     margin-right: 32px;

@@ -209,3 +209,84 @@ a:link {color:#17181A;}
 a:visited {color:#17181A;}
 a:hover {color:#312EFF;}
 a:active {color:#17181A; }
+
+@media only screen and (max-width: 1024px) {
+
+  h4{
+    font-size: 1.5em;
+  }
+
+  .information{
+    justify-content:center;//子元素水平居中
+    align-items:center;//子元素垂直居中
+    display:-webkit-flex;
+    padding-top: 150px;
+    padding-bottom: 130px;
+    display:flex;
+    /*background-color: #B55546;*/
+    color: #283239;
+  }
+
+  .overview{
+    margin-right: 2em;
+    max-width: 400px;
+  }
+  .team{
+    margin-right: 2em;
+  }
+
+@media only screen and (max-width: 768px) {
+  body {
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+
+  h4{
+    font-size: 1.375em;
+  }
+
+  .information{
+    justify-content:center;//子元素水平居中
+    align-items:center;//子元素垂直居中
+    display:-webkit-flex;
+    padding-top: 150px;
+    padding-bottom: 130px;
+    /*background-color: #B55546;*/
+    color: #283239;
+  }
+
+  .overview{
+    margin-right: 1em;
+    max-width: 520px;
+  }
+  .team{
+  }
+}
+
+
+@media only screen and (max-width: 520px) {
+  h1{
+    text-align: left; /*让div内部文字居中*/
+    margin-bottom: 120px;
+  }
+
+  body {
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+
+  h4{
+    font-size: 1.375em;
+  }
+  .information{
+    margin-top: 100px;
+    display:contents;
+    /*background-color: #B55546;*/
+    color: #283239;
+  }
+
+  .overview{
+    max-width: 520px;
+  }
+
+}
