@@ -142,7 +142,7 @@ span{
 }
 
 .traffic{
-  width:970px;
+  max-width:970px;
   margin: auto;
   top: 0;
   left: 0;
@@ -152,7 +152,7 @@ span{
 
 
 .benefits{
-  width:620px;
+  max-width:620px;
   margin: auto;
   top: 0;
   left: 0;
@@ -210,6 +210,8 @@ span{
   margin-right: 4.68em;
 }
 
+
+
 .framerworks{
   max-width: 1200px;
   margin: auto;
@@ -225,9 +227,91 @@ span{
 
 
 
+
 a {outline:none !important; text-decoration:none;border-bottom:1px #17181A solid;}
 a {padding-bottom: 4px;}
 a:link {color:#283239;}
 a:visited {color:#283239;}
 a:hover {color:#312EFF;}
 a:active {color:#283239; }
+
+
+@media only screen and (max-width: 1024px) {
+
+  h4{
+    font-size: 1.5em;
+  }
+
+  .information{
+    justify-content:center;//子元素水平居中
+    align-items:center;//子元素垂直居中
+    display:-webkit-flex;
+    padding-top: 150px;
+    padding-bottom: 130px;
+    display:flex;
+    /*background-color: #B55546;*/
+    color: #283239;
+  }
+
+  .overview{
+    margin-right: 2em;
+    max-width: 400px;
+  }
+  .team{
+    margin-right: 2em;
+  }
+
+@media only screen and (max-width: 768px) {
+  body {
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+
+  h4{
+    font-size: 1.375em;
+  }
+
+  .information{
+    justify-content:center;//子元素水平居中
+    align-items:center;//子元素垂直居中
+    display:-webkit-flex;
+    padding-top: 150px;
+    padding-bottom: 130px;
+    /*background-color: #B55546;*/
+    color: #283239;
+  }
+
+  .overview{
+    margin-right: 1em;
+    max-width: 520px;
+  }
+  .team{
+  }
+}
+
+
+@media only screen and (max-width: 375px) {
+  body {
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+
+  h4{
+    font-size: 1.375em;
+  }
+  .information{
+    padding-top: 150px;
+    padding-bottom: 130px;
+    display:contents;
+    /*background-color: #B55546;*/
+    color: #283239;
+  }
+
+  .overview{
+    margin-right: 1em;
+    max-width: 520px;
+  }
+  .team{
+    margin-right: 1em;
+  }
+}

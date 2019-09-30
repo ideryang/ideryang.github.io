@@ -84,8 +84,10 @@ h5{
 
 h6{
   color:#FFFFFF;
-  font-family: "Clearface LT Bold", times, -apple-system, BlinkMacSystemFont, "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 1.75em;
+  font-family: "ITCClearface", times, -apple-system, BlinkMacSystemFont, "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: bold;
+  font-style: normal;
   line-height: 2.0;
   text-align: center;
   width: 100%;

@@ -125,7 +125,7 @@ span{
 }
 
 .mailsuffix{
-  width:520px;
+  max-width:520px;
   margin: auto;
   top: 0;
   left: 0;
@@ -144,7 +144,7 @@ span{
 
 
 .embrace{
-  width:1000px;
+  max-width: 1000px;
   margin: auto;
   top: 0;
   left: 0;
