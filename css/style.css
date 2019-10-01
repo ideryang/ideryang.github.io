@@ -110,6 +110,38 @@ h2 a:hover{
   color:#000000;
 }
 
+h3{
+  font-size: 1rem;
+  line-height:1.2;
+  font-family:'SF-Pro-Text', sans-serif, Arial, Helvetica;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.content a{
+  color: #283239;
+}
+
+
+
+h3 a:hover{
+  text-decoration: underline;
+}
+
+
+h4{
+  font-size: 1.375rem;
+  line-height:1.2;
+  font-family: "ITCClearface", Georgia, -apple-system, BlinkMacSystemFont, "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  margin-top: 4px;
+}
+
+.content a:hover{
+  color:#999999;
+}
+
 p{
   font-size: 2rem;
 	line-height:1.2;
@@ -140,4 +172,62 @@ span{
   margin-right:.25em;
   display:inline-block;
   position: relative;
+}
+
+
+.main {
+  width:60%;
+  max-width: 1600px;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 4px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;}
+
+img {
+  border: 1px solid #EBEBEB;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 1800px) {
+  .main {
+    width:75%;
+  }
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1000px) {
+  .main {
+    width:100%;
+  }
+  .column {
+    width: 100%;
+  }
 }
