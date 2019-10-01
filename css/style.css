@@ -111,15 +111,16 @@ h2 a:hover{
 }
 
 h3{
-  font-size: 1rem;
+  font-size: 0.8rem;
   line-height:1.2;
-  font-family:'SF-Pro-Text', sans-serif, Arial, Helvetica;
+  font-family: 'SF-Pro-Display',-apple-system, BlinkMacSystemFont, "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: bold;
   margin-bottom: 8px;
+  text-transform:uppercase;
 }
 
 .content a{
-  color: #283239;
+  color: #C0CBD1;
 }
 
 
@@ -132,14 +133,14 @@ h3 a:hover{
 h4{
   font-size: 1.375rem;
   line-height:1.2;
-  font-family: "ITCClearface", Georgia, -apple-system, BlinkMacSystemFont, "Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-weight: normal;
+  font-family: 'SF-Pro-Display',-apple-system, BlinkMacSystemFont, "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight:normal;
   font-style: normal;
   margin-top: 4px;
 }
 
 .content a:hover{
-  color:#999999;
+  color:#283239;
 }
 
 p{
