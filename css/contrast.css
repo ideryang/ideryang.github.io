@@ -1,0 +1,108 @@
+/*
+Design and development by Evan
+*/
+
+@font-face {font-family: 'ITCClearface';font-weight: bold;font-style: normal;src: url('webfonts/3A2750_0_0.eot');src: url('webfonts/3A2750_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3A2750_0_0.woff2') format('woff2'),url('webfonts/3A2750_0_0.woff') format('woff'),url('webfonts/3A2750_0_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'ITCClearface';font-weight: normal;font-style: normal;src: url('webfonts/3A2750_1_0.eot');src: url('webfonts/3A2750_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3A2750_1_0.woff2') format('woff2'),url('webfonts/3A2750_1_0.woff') format('woff'),url('webfonts/3A2750_1_0.ttf') format('truetype');}
+
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+h1 {
+  color:#17181A;
+  font-family: "ITCClearface", times, -apple-system, BlinkMacSystemFont, "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: bold;
+  font-style: normal;
+  font-size: 3.8em;
+  line-height:normal;
+  text-align: center; /*让div内部文字居中*/
+  margin-top: 50px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+
+
+body {
+  background-color: #B09A81;
+  color:#17181A;
+  line-height: 27px;
+	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight:300;
+	padding-bottom: 25px;
+	margin-bottom: 25px;
+}
+
+p {
+  width: 100%;
+  max-width:520px;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+
+.middle{
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.mail{
+  width: 100%;
+  max-width:520px;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+
+
+p a {outline:none !important; text-decoration:none;border-bottom:1px #17181A solid;}
+.mail a {outline:none !important; text-decoration:none;border-bottom:1px #17181A solid;}
+a {padding-bottom: 4px;}
+a:link {color:#17181A;}
+a:visited {color:#17181A;}
+p a:hover {color:#555555;}
+a:active {color:#17181A; }
+
+
+@media only screen and (max-width: 768px) {
+  body {
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+}
+
+
+@media only screen and (max-width: 520px) {
+  h1{
+    text-align: left; /*让div内部文字居中*/
+    margin-bottom: 120px;
+  }
+
+  body {
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+
+}
