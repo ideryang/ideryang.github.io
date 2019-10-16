@@ -8,6 +8,18 @@ Design and development by Evan
 @font-face {font-family: 'ITCClearface';font-weight: normal;font-style: normal;src: url('webfonts/3A2750_1_0.eot');src: url('webfonts/3A2750_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3A2750_1_0.woff2') format('woff2'),url('webfonts/3A2750_1_0.woff') format('woff'),url('webfonts/3A2750_1_0.ttf') format('truetype');}
 
 
+@keyframes Down2Up {
+  0% {
+    transform: translateY(12px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+::-moz-selection { background: #EAEAEA; }
+::selection { background: #EAEAEA; }
+
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
@@ -27,6 +39,7 @@ body {
 	margin-bottom: 25px;
 	padding-top: 50px;
   hyphens: manual;
+  animation: 1s ease-out 0s 1 Down2Up;
 }
 
 
@@ -78,17 +91,14 @@ a:hover {
 
 .hideable-section {
   display: none;
+  animation: 1s ease-out 0s 1 Down2Up;
+
 }
 .hideable-section:first-of-type {
   display: block;
 }
 
-.hideable-section {
-  display: none;
-}
-.hideable-section:first-of-type {
-  display: block;
-}
+
 
 h2{
   font-size: 2rem;
@@ -138,6 +148,23 @@ h4{
   margin-top: 16px;
 }
 
+h5{
+  font-size: 2rem;
+  line-height:1.2;
+  font-family: "ITCClearface", Georgia, -apple-system, BlinkMacSystemFont, "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  max-width:860px;
+  margin-right:.25em;
+  display:inline-block;
+  position: relative;
+  margin-bottom: -30;
+}
+
+h5 a{
+  color:#283239;
+}
+
 .content a:hover{
   color:#283239;
 }
@@ -172,6 +199,7 @@ span{
   margin-right:.25em;
   display:inline-block;
   position: relative;
+
 }
 
 
@@ -206,10 +234,12 @@ span{
 /* Content */
 .content {
   background-color: white;
-  padding: 10px;}
+  padding: 10px;
+}
 
 img {
   border: 1px solid #FAFAFA;
+  animation: 1s ease-out 0s 1 Down2Up;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
