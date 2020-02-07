@@ -43,7 +43,7 @@ body {
 }
 
 
-dl dt {display:inline-block;float: left;margin-right: 0.25em;color:#CDD8DE;}
+dl dt {display:inline-block;float: left;margin-right: 0.25em;color:#283239;}
 .account{width:400px;display: inline-block;font:inherit;}
 address.column-2 {width:400px;display: inline-block;font:inherit;}
 
@@ -162,6 +162,13 @@ h5{
 }
 
 h5 a{
+  color:#283239;
+}
+address.column-2 a{
+  color:#283239;
+}
+
+dl.account a{
   color:#283239;
 }
 
