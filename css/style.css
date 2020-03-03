@@ -43,7 +43,7 @@ body {
 }
 
 
-dl dt {display:inline-block;float: left;margin-right: 0.25em;color:#283239;}
+dl dt {display:inline-block;float: left;margin-right: 0.25em;color:#CDD8DE;}
 .account{width:400px;display: inline-block;font:inherit;}
 address.column-2 {width:400px;display: inline-block;font:inherit;}
 
@@ -81,9 +81,7 @@ a {
   color: #CDD8DE;
 }
 
-a:hover {
-  color:#283239;
-}
+
 
 .active{
   color:#283239;
@@ -164,15 +162,28 @@ h5{
 h5 a{
   color:#283239;
 }
+
 address.column-2 a{
-  color:#283239;
+  color:#CDD8DE;
 }
 
 dl.account a{
+  color:#CDD8DE;
+}
+
+address.column-2 a:hover{
+  color:#283239;
+}
+
+dl.account a:hover{
   color:#283239;
 }
 
 .content a:hover{
+  color:#283239;
+}
+
+a:hover {
   color:#283239;
 }
 
