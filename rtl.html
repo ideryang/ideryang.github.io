@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Evan Yang - Google Editor Choice</title>
+  <meta name="author" content="Evan Yang">
+  <meta name="description" content="Evan Yang, Designer at Alibaba">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <link rel="stylesheet" type="text/css" href="css/apple.css">
+</head>
+
+<div class="banner">
+  <img src="" width="100%" >
+</div>
+
+<h1> RTL (right-to-left) <br>Design Guideline</h1>
+
+<body>
+  <p>2019 is another important year for AliExpress to go further with it's global business. And this year, we are aiming for markets where people read from right-to-left(RTL).</p>
+
+  <div class="context">
+
+    <h2>What is RTL?</h2>
+    <p>RTL means languages that are read from right-to-left (RTL), such as Arabic and Hebrew. When the design for UIs, languages should be mirrored to ensure content is easy to understand.<br><br>The main difference between left-to-right (LTR) and right-to-left (RTL) language scripts is the direction in which content is displayed:<br><br>• LTR languages display content from left to right<br>• RTL languages display content from right to left</p>
+
+
+    <h2>Why RTL matter?</h2>
+    <p>There are almost 400 million RTL users all over the world (From Apple WWDC16, Session 232). 12 listed languages that are written from the right to the left: <strong>Arabic</strong>, <strong>Aramaic</strong>, Azeri, Dhivehi, Fula, <strong>Hebrew</strong>, Kurdish (Sorani), N’ko,<strong>Persian</strong>, Rohingya, Syriac, <strong>Urdu</strong>. <br><br> RTL may not be the first thing you think about when you think about user experience. But these numbers make it clear, there are the people that use your app and creating designs that work for them is at the heart of the user experience.</p>
+
+    <br>
+
+    <h2>Where are these RTL Countries located?</h2>
+    <p>There are many countries use RTL languages. These main areas are included: Afghanistan, Israel, Middle East, Pakistan
+    <div class="small">
+      <img src="https://ideryang.oss-cn-hangzhou.aliyuncs.com/rtl/worldmap.png" width=100%>
+    </div>
+
+    <br><br>
+    <h2>Major Steps to design for RTL users</h2>
+    <p>Here are three major steps to Localize for the RTL languages<br><strong>1. Reverse the sequence for a series of events<br>2. Translate the text and numbers by making them localizable labels instead of being baked into art<br>3. Mirror certain items to make it feel natural to read from Right to Left</strong><br><br>
+
+    <h3>Translate the text and numbers</h3></p>
+    <p>Translate those text that can be translated. A word such as AliExpress can not be translated into the local language can stay as an untranslated text (even if it’s part of a phrase).<br>For the numbers, here is a chart for the numeral system. <br><br>
+
+    <h3>Define mirrored and not mirrored items</h3></p>
+    <p>When a UI changes from one direction to another, these items are <strong>not mirrored</strong>: Numerals, Phone Numbers, Clocks, Music Notes, Video Playback Controls, Charts and Graphs, Images, Untranslated text (even if it’s part of a phrase)</p>
+    <div class="tiny">
+      <img src="https://ideryang.oss-cn-hangzhou.aliyuncs.com/rtl/iconnography.png" width=100%>
+    </div>
+
+    <h2>Icon</h2>
+    <p>One of the tasks of icons is to help users quickly identify something, or action regardless of their language. Therefore mirroring icons unnecessarily could actually fall into the counterproductive side of the field.<br><br>When we are thinking about a mirrored icon, we think about the meaning behind it. If the icon has a strong relationship with the physical world, or let’s say it’s what it’s. Then don’t mirror it and let it be. Icons that are symmetrical and that don’t point in a particular direction should not be flipped either. Listed below are the kinds of icons that <strong>shouldn’t be mirrored</strong>: Holding with one’s right hand, Symmetrical, Physical objects, Containing non-RTL characters, Slashes, Clockwise.</p>
+
+    <div class="tiny">
+      <img src="https://ideryang.oss-cn-hangzhou.aliyuncs.com/rtl/icons.png" width=100%>
+    </div>
+
+    <p>Using icons in RTL design can be tricky. Keep in mind that some of them might have to be mirrored, and some could be considered offensive to people of some nationalities, so double-check that the icons you’re using make sense.</p>
+
+    <h2>Font</h2>
+    <p>Here are some major parts that we want to talk about when we talk about font: Font weight, font length，font decoration and line height.</p>
+
+    <br><br>
+    <h3>Font Weight</h3>
+    <p>Try to avoid using <strong>bold, italics and capital</strong>. Bold text would make readability extremely difficult in most RTL languages (especially Arabic), and italics is simply never used. As well, capital letters are almost always disregarded in RTL languages. Shown below demostrates how SF pro (system font of iOS) behaviors in different written systems.</p>
+
+    <div class="small">
+      <img src="https://ideryang.oss-cn-hangzhou.aliyuncs.com/rtl/SF.png" width=100%>
+    </div>
+
+    <br>
+    <h3>Font Length</h3>
+    <p>Words in RTL languages are often much shorter than words in English. So, adjust to keep a balance in how text is displayed on the page.</p>
+
+    <br>
+    <h3>Font Decoration</h3>
+    <p>If you need to highlight a certain part of the text in Arabic, overline it instead of underlining, interspacing or italicizing. Here is how we do it:</p>
+    <div class="narrow">
+      <img src="https://ideryang.oss-cn-hangzhou.aliyuncs.com/rtl/decoration.png" width=100%>
+    </div>
+
+    <br>
+    <h3>Line Height</h3>
+    <p>The line height of Arabic is tricky though. We should always pay attention to the extra marks which are called discritics, vowel marks, or tone marks. And sometimes they’re extremely high or low. For the Arabic and Hindi fonts, they have descenders much lower than Latin characters.</p>
+
+    <h2>Color</h2>
+    <p>Color is another fundamental design element. There’s a lot to consider when choosing colors for the design because they will bring emotions to the experience. Yellow represents death in Saudi Arabia. Purple and pink may not be a good choice when we design for Yemen.</p>
+
+    <h2>Calendar</h2>
+    <p>Calendars are probably one of the most important and complicated aspects of RTL design because calendar years are different between LTR and RTL geographic regions. Let’s just take Arabic as an example. Calendar in Arabic read from Right to Left just as the normal layout.</p>
+
+    <h2>input</h2>
+    <p>Content loaders generally should follow the direction of content.</p>
+
+    <div class="narrow">
+      <video width="100%" height="auto" Autoplay loop muted>
+        <source src="https://ideryang.oss-cn-hangzhou.aliyuncs.com/rtl/input.mp4" type="video/mp4" />
+      </video>
+    </div>
+
+    <h2>AliExpress RTL Component</h2>
+    <p>Attached is AliExpress RTL Component which we made from the design guideline showing above.</p>
+    <div class="full">
+      <img src="https://ideryang.oss-cn-hangzhou.aliyuncs.com/rtl/component.png" width=100%>
+    </div>
+
+  </div>
+
+<footer>
+  <div class="mail">
+    <h2></h2>
+    <img src="" width=100%>
+    <h3>Get in touch —</h3>
+    <a href="mailto:yangshuang.design@gmail.com" onclick="_gs('event', '[Footer] Mail')">yangshuang.design@gmail.com</a>
+  </div>
+</footer>
+
+
+
+
+
+
+</body></html>
