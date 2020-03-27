@@ -11,9 +11,11 @@ Design and development by Evan
 @keyframes Down2Up {
   0% {
     transform: translateY(6px);
+    opacity: 0.8;
   }
   100% {
     transform: translateY(0);
+    opacity: 1;
   }
 }
 
