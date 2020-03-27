@@ -10,7 +10,7 @@ Design and development by Evan
 
 @keyframes Down2Up {
   0% {
-    transform: translateY(12px);
+    transform: translateY(6px);
   }
   100% {
     transform: translateY(0);
@@ -156,7 +156,6 @@ h5{
   margin-right:.25em;
   display:inline-block;
   position: relative;
-  margin-bottom: -30;
 }
 
 h5 a{
@@ -233,7 +232,7 @@ span{
 /* Add padding BETWEEN each column (if you want) */
 .row,
 .row > .column {
-  padding: 4px;
+  padding: 8px;
 }
 
 /* Create four equal columns that floats next to each other */
@@ -252,7 +251,7 @@ span{
 /* Content */
 .content {
   background-color: white;
-  padding: 10px;
+  padding-right: 10px;
 }
 
 img {
