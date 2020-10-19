@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Evan Yang - Basic Knowledge of Typography</title>
+  <meta name="author" content="Evan Yang">
+  <meta name="description" content="Evan Yang, Designer at Alibaba">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <link rel="stylesheet" type="text/css" href="css/size.css">
+</head>
+
+<div class="banner">
+  <img src="" width="100%" >
+</div>
+
+<h1> Typography</h1>
+
+
+<body>
+
+  <div class="information">
+  <div class="overview">
+    <h3>Overview</h3>
+        <p><span>As more businesses are establishing a worldwide presence, we design for a global audience, So when it comes to designing the user interface for our apps and websites, one thing we must consider is the typography. Selecting fonts for use with multiple languages is of great importance. Here are the fundamental elements to take into account when choosing fonts for international products.</span></p>
+  </div>
+
+  <div class="team">
+    <h3>Team department</h3>
+    <p><span>UX team</span> <br> <br> <h3>Team members / roles </h3>
+    <span>YANG Shuang - UX Designer, <br>Product Designer</span><br>
+  </div>
+
+  <div class="Launched">
+    <h3>Launched</h3>
+    <h4>Nov 2019</h4>
+  </div>
+  </div>
+
+  <div class="context">
+
+
+    <h2>Terms</h2>
+    <p>In this article, there are a number of typography terms that are either commonly confused with other terms. Just in case some of the terms may affect the reading experience, let's go through some of them.
+      <br><br>
+      <strong>Text: </strong>The text that we usually typed and displayed. It consists of Characters.
+      <br><br>
+      <strong> Character: </strong>A character is the symbol representing a letter, each character has its own Glyph.
+      <br><br>
+      <strong> Glyph: </strong>A glyph is the specific shape, design, or representation of a character. Normally, Character and Glyph have a one-to-one relationship, but there will be a series of Features between the two, which makes it possible for two Characters to correspond to one Glyph( <a href="https://en.wikipedia.org/wiki/Typographic_ligature">Ligatures</a> like 'ff' or 'fi').
+      <br><br>
+      <strong> Feature: </strong> A way to enable advanced text styles and effects as designed by the font author. A font may support a number of features: some examples include different kinds of ligatures, tabular numbers, or small caps.
+      <br><br>
+      <strong>Font:</strong>
+      Refers to the technology – or method – used to reproduce or set the typeface.
+      <br><br>
+      <strong> Style: </strong>Refers to the design styles such as the font weights (Thin, Light, Normal, Bold)
+      <br><br>
+      <strong> Typeface: </strong>A group contains fonts and styles (such as the Helvetica or Times Roman typefaces).
+      <br><br>
+      <strong> Typography:</strong> The art and technique of arranging type to make written language legible, readable, and appealing when displayed.</p>
+    <div class="small">
+      <img src="https://ideryang.oss-cn-hangzhou.aliyuncs.com/typography/terms.png" width=100%>
+    </div>
+    <h2>Writting Systems</h2>
+    <p>Different country has it's own Writting system, and they use differet Character Sets. Right now according to the marketplaces Alibaba Group covered, 10 writting systems are listed, which support more than 20 languages. Differet writting systems has it's own glaphs. One of the most accurate way to define if a font support a certain language or not is to take a peak of the glaphs the font contained.<br> <br>Here is the 👉<a href="http://www.madore.org/~david/computers/unicode/cstab.html"> link</a> 👈for you to view the glaphs for some common writting systems.</p>
+
+    <div class="small">
+      <img src="https://ideryang.oss-cn-hangzhou.aliyuncs.com/typography/writtingsystem.png" width=100%>
+    </div>
+
+    <h2>Language Support</h2>
+    <p>What should we pay special attention to is that when a certain font doesn't contain the glaphs the writting system needs, the device will use the system font(s) instead.<br><br>Take AliExpress as an example, the font AliExpress use for iOS is Open Sans. When user swith their app language to Korean which Open Sans doesn't support, App will use the system font SF Pro to render and display instead.<br><br>What will happen if there is a writting system that SF Pro doesn't support?<br><br>I tried to swith my iPhone language to Armenian, then got a notification shown "If you prefer Armenian, English will be used as the iPhone language and by apps and websites where Armenian is not supported." <br><br>One easy way to see if a font support a language is to go to <a href="https://fonts.adobe.com/">Adobe Fonts </a> and search the font you'd like to see, then go to "Details-Glyph Support & Stylistic Filters" to see more details. Or we can also go to the official website of the specific font, there will always be a "Language Support" section for a font introduction.
+    <br><br>
+    <a href="https://docs.microsoft.com/en-us/typography/fonts/windows_10_font_list"> 👉 Windows 10 font list</a><br>
+    <a href="https://developer.apple.com/fonts/system-fonts/#preinstalled"> 👉 Apple System Fonts</a><br>
+    <a href="https://en.wikipedia.org/wiki/List_of_typefaces_included_with_macOS"> 👉 macOS Typefaces - Wikipedia</a><br>
+    👉 Android: Droid Sans, Droid Serif, Droid Sans Mono, Roboto.<br>
+    What's interesting is that the preinstalled typefaces on iOS12 are more than 70, which contains more than 250 fonts.
+    </p>
+
+    <h2>Case Sensitive & Italy</h2>
+    <p>Above all the writting systems mentioned above, only Latin, Cyrillic and Greek have Case Sensitive fonts. The usage of Case Sensitive also differs from the culture itself. In German, the first letter of a noun should be capitalized. In France, many people will capitalize their family name so that people can eaisly understand wether it's people's family name or first name.<br><br>Meanwhile, among all the writting systems mentioned above, only Latin, Cyrillic and Greek have Italy.</p>
+
+    <h2>Font Weights</h2>
+    <p>Typefaces in different writting systems have different font weights, the visual hierarchy of our design can sometimes changed unexpectedly if we are not familiar with the typefaces we are using. Take SF Pro for instance, if we set the font weight of "Hello" to be Heavy, then we translated into Chinese "你好", the font weight will downgrade to Semibold in Chinese.</p>
+
+    <h2>Length</h2>
+    <p>Word length can vary greatly across languages, even those that use similar glyphs, the length of English can always be shorter than some other languages in Europe. Take English andn German as an example, German has many compound words that are longer, requiring more lines or line spacing.<br><br> In order to avoid the layout issues caused by content length, we can use tools such as Sketch translation plugins to convert our design language into target language. Though the machine translation is not that accurate, we can at least preview and adjust our design and layout in advance.<br><br>There is a researce by IBM, which relates text length of multi-lingual with Characters of English. Take word "Edit" as an example, which have 4 characters, in the range of 0-10. Thus, when we our design contains word "Edit", it's better for  to leave 3 times longer space. ("Edit" in Russian is "редактировать", which is a lot longer than "Eidt".)</p>
+
+    <div class="small">
+      <img src="https://ideryang.oss-cn-hangzhou.aliyuncs.com/typography/length.png" width=100%>
+    </div>
+
+    <div class="small">
+      <img src="https://ideryang.oss-cn-hangzhou.aliyuncs.com/typography/chart.png" width=100%>
+    </div>
+
+
+
+    <h2>Alighment</h2>
+    <p>In Latin family, the writing starts from the left of the page and continues to the right. However in Arabic and Hebrew, this can be contrasted against righ-to-left writing systems, where writing starts from the right of the page and continues to the left. More details of the RTL deisgn can be viewed in one of my <a href="https://yangshuang.me/rtl"> 👉 another project</a>.</p>
+
+    <h2>Height</h2>
+    <p>Character height can be different in different writting systems. Some writting systems (Vietnamese，Thai, Arabic and Hindi) have Diacritics, Vowelmarks or Tone Marks that we don't often use in English. These elements will make the font height higher (or lower) than the Latin family, exceed the limits of Ascender and Descender many of the time.<br><br>For ease of internationalization, Google has categorized languages into three categories: English-like, tall, and dense.<br><br>
+
+English-like: Latin (except Vietnamese), Greek, Cyrillic, Hebrew, Armenian, and Georgian.<br><br>
+
+Tall: Language scripts that require extra line height to accommodate larger glyphs, including South and Southeast Asian and Middle Eastern languages, like Arabic, Hindi, Telugu, Thai, and Vietnamese.<br><br>
+
+Dense: Language scripts that require extra line height to accommodate larger glyphs but have different metrics from tall scripts. Includes Chinese, Japanese, and Korean.</p>
+
+    <div class="small">
+      <img src="https://ideryang.oss-cn-hangzhou.aliyuncs.com/typography/height1.png" width=100%>
+    </div>
+
+    <div class="small">
+      <img src="https://ideryang.oss-cn-hangzhou.aliyuncs.com/typography/height.png" width=100%>
+    </div>
+
+    <h2>Reference</h2>
+    <p><a href="https://typejournal.ru/en/articles/Ilya-Ruderman-Interview" target="_blank"> Ilya Ruderman Interview </a>- Type Journal</p>
+    <p><a href="http://image.linotype.com/files/pdf/02_help/images/help_03/OTGuide.pdf" target="_blank"> OpenType User Guide for Adobe Fonts </a> -Adobe</p>
+    <p><a href="http://www.madore.org/~david/computers/unicode/cstab.html" target="_blank"> Tables of Common Character Sets </a>- madore.org</p>
+    <p><a href="https://www.adobe.com/products/type/adobe-type-references-tips/glossary.html" target="_blank"> Glossary of typographic terms </a>by Adobe</p>
+    <p><a href="https://typography.guru/term/?d=18" target="_blank"> Typography Terms </a> -Typography.Guru</p>
+    <p><a href="https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/webfont-optimization" target="_blank"> Web Font Optimization</a> -Google</p>
+    <p><a href="http://totallytype.com/anatomy.php" target="_blank"> Anatomy of Typeface </a> -TotallyType</p>
+    <p><a href="https://docs.microsoft.com/zh-cn/typography/opentype/" target="_blank"> OpenType Overview </a> -Microsoft</p>
+    <p><a href="https://docs.microsoft.com/zh-cn/typography/truetype/" target="_blank"> TureType Overview</a> -Microsoft</p>
+    <p><a href="https://support.apple.com/en-us/HT206872#document" target="_blank"> Fonts included with macOS Sierra</a> -Apple</p>
+    <p><a href="https://developer.apple.com/fonts/system-fonts/#preinstalled" target="_blank"> Apple System Fonts</a> -Apple</p>
+    <p><a href="https://en.wikipedia.org/wiki/List_of_typefaces_included_with_macOS" target="_blank"> List of typefaces included with macOS </a> -Wikipedia</p>
+    <p><a href="https://developer.apple.com/fonts/TrueType-Reference-Manual/" target="_blank"> TrueType Reference Manual </a> -Apple</p>
+    <p><a href="https://www.granneman.com/webdev/coding/css/fonts-and-formatting/default-fonts" target="_blank"> Default Fonts in Desktop & Mobile Operating Systems </a> -granneman.com</p>
+
+<footer>
+  <div class="mail">
+    <h3>Get in touch —</h3>
+    <a href="mailto:ideryang@gmail.com" onclick="_gs('event', '[Footer] Mail')">ideryang@gmail.com</a>
+  </div>
+</footer>
+
+
+
+
+
+
+</body></html>
