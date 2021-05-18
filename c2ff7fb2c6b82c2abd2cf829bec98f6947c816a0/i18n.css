@@ -2,12 +2,6 @@
 Design and development by Evan
 */
 
-@font-face {font-family: 'ITCClearface';font-weight: bold;font-style: normal;src: url('webfonts/3A2750_0_0.eot');src: url('webfonts/3A2750_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3A2750_0_0.woff2') format('woff2'),url('webfonts/3A2750_0_0.woff') format('woff'),url('webfonts/3A2750_0_0.ttf') format('truetype');}
-
-
-@font-face {font-family: 'ITCClearface';font-weight: normal;font-style: normal;src: url('webfonts/3A2750_1_0.eot');src: url('webfonts/3A2750_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3A2750_1_0.woff2') format('woff2'),url('webfonts/3A2750_1_0.woff') format('woff'),url('webfonts/3A2750_1_0.ttf') format('truetype');}
-
-
 @keyframes Down2Up {
   0% {
     transform: translateY(6px);
@@ -30,73 +24,81 @@ Design and development by Evan
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
+/* Pen-specific styles */
+html, body, section {
+  height: 100%;
+}
+
 body {
   color:#000000;
-  background:#ffffff;
   font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,'Helvetica-neue','SF-Pro-Text','SF-Pro-Display', sans-serif, Arial;
-  width: 75%;
-	margin-left: auto;
-	margin-right: auto;
-	padding-bottom: 25px;
-	margin-bottom: 25px;
-	padding-top: 50px;
-  hyphens: manual;
+  margin: 0;
   animation: 1s ease-out 0s 1 Down2Up;
 }
 
-
-dl dt {display:inline-block;float: left;margin-right: 0.25em;color:#CDD8DE;}
-.account{width:400px;display: inline-block;font:inherit;}
-address.column-2 {width:400px;display: inline-block;font:inherit;}
-
-header{
-	width:100%;
-	height: auto;
+div {
+  display: flex;
+  flex-direction: column;
 }
 
+/* Pattern styles */
+.container {
+  display: flex;
+}
+
+.left-half {
+  background-color: #000000;
+  flex: 1;
+  padding: 1rem;
+  padding-top: 100px;
+}
+
+.right-half {
+  background-color: #FFFFFF;
+  flex: 1;
+  padding: 1rem;
+  padding-top: 100px;
+}
+
+.pic{
+  margin-left: 15%;
+  margin-top: 120px;
+}
 
 a {
   outline:none !important;
   text-decoration:none;
   cursor: pointer;
-  color: #CDD8DE;
+  color: #000000;
 }
-
-
 
 .active{
   color:#283239;
 }
 
-
-
-
-h2{
-  font-size: 2rem;
+h1,h3{
+  margin-left: 15%;
+  font-size: 3rem;
   line-height:1.2;
-  font-family: "ITCClearface", Georgia, -apple-system, BlinkMacSystemFont, "Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  max-width:860px;
-  margin-right:.25em;
-  display:inline-block;
-  position: relative;
-  margin-top: 20px;
-}
-
-
-
-h2 a:hover{
-  color:#000000;
+  font-weight: bold;
+  color: #FFFFFF;
 }
 
 h3{
-  font-size: 0.8rem;
+  color: #000000;
+}
+
+h2{
+  margin-left: 15%;
+  font-size: 1.6rem;
   line-height:1.2;
-  font-family: 'SF-Pro-Display',-apple-system, BlinkMacSystemFont, "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: bold;
-  margin-bottom: 2px;
-  text-transform:uppercase;
+  margin-top: 50px;
+}
+
+
+h2 a:hover{
+  color:#555555;
 }
 
 
@@ -104,79 +106,11 @@ a:hover {
   color:#283239;
 }
 
-p{
-  font-size: 2rem;
-	line-height:1.2;
-  font-family: "ITCClearface", Georgia, -apple-system, BlinkMacSystemFont, "Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-weight: normal;
-  font-style: normal;
-	max-width:860px;
-	margin-right:.25em;
-  display:inline-block;
-	position: relative;
-}
-
 span{
-  font-family:'SF-Pro-Text', sans-serif, Arial, Helvetica;
-  font-size: 1rem;
-  margin-left: 20px;
-  color: #CDD8DE;
+  color: #999999;
 }
 
-
-.row {
-  margin: 8px -16px;
-}
-
-/* Add padding BETWEEN each column (if you want) */
-.row,
-.row > .column {
-  padding: 8px;
-}
-
-/* Create four equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 50%;
-}
-
-/* Clear floats after rows */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Content */
-.content {
-  background-color: white;
-  padding-right: 10px;
-}
 
 img {
-  border: 1px solid #FAFAFA;
   animation: 1s ease-out 0s 1 Down2Up;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 1800px) {
-  .main {
-    width:75%;
-  }
-  .column {
-    width: 50%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 1000px) {
-  body{
-    width:90%;
-  }
-  .main {
-    width:100%;
-  }
-  .column {
-    width: 100%;
-  }
 }
