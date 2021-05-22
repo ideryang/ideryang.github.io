@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Clearface LT";
+  src: url("./ClearfaceLT-Regular.eot");
+  src: url("./ClearfaceLT-Regular.eot?#iefix")
+  format("embedded-opentype"),
+  url("./ClearfaceLT-Regular.woff2") format("woff2"),
+  url("./ClearfaceLT-Regular.woff") format("woff"),
+  url("./ClearfaceLT-Regular.ttf") format("truetype"),
+  url("./ClearfaceLT-Regular.svg#ClearfaceLT-Regular") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'string';
+  src: url('./3A20E1_0_0.eot');
+  src: url('./3A20E1_0_0.eot?#iefix') format('embedded-opentype'),
+  url('./3A20E1_0_0.woff2') format('woff2'),
+  url('./3A20E1_0_0.woff') format('woff'),
+  url('./3A20E1_0_0.ttf') format('truetype');
+}
+
+* {
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+  "Arial", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
