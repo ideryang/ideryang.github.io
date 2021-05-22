@@ -231,6 +231,10 @@ span{
   margin: 8px -16px;
 }
 
+.column{
+  display: inline-table;
+}
+
 /* Add padding BETWEEN each column (if you want) */
 .row,
 .row > .column {
