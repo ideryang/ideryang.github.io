@@ -1,145 +1,46 @@
-
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<title></title>
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-</head>
-
-<style>
-
-body {
-
-	background-color:#000000;
-	background-attachment: fixed;
-	color: #000000;
-}
-
-.box {
-	border-radius: 3px;
-	background: #000000;
-}
-
-.lightbox {
-	zoom: 1.5;
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: transparent;
-	text-align: center;
-	margin: auto;
-}
+<html>
 
 
-button{
-	background-color: #FFFFFF;
-	border-radius: 8px;
-	padding-left: 8px;
-	padding-right: 8px;
-	padding-top:7px;
-	padding-bottom: 7px;
-	border-color: #000000;
-	cursor:pointer;
-}
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Evan Yang - i18n</title>
+    <meta name="author" content="Evan Yang">
+    <meta name="description" content="Evan Yang, Designer at Alibaba">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="i18n.css"/>
+  </head>
 
-div.horizontal {
-	display: flex;
-	justify-content: center;
-	height: 100%;
-}
+  <body>
+    <section class="container">
+      <div class="left-half">
+        <article>
+          <h1>Designer <br>Sans Frontières</h1>
+          <div class="pic"> <img src="https://ideryang.oss-cn-hangzhou.aliyuncs.com/i18n/hands.png" width=300x></div>
+        </article>
+      </div>
+      <div class="right-half">
+        <article>
+          <h3>
+            Content</h3>
+          <br>
+          <h2>
+            <a href="https://yangshuang.me/overview" target="_blank">Design Overview</a></h2>
 
-div.vertical {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	width: 100%;
-}
+          <h2>
+            <a href="https://yangshuang.me/locale" target="_blank">Locale</a></h2>
 
-::-webkit-input-placeholder {
-   color: #999;
-   text-align: center;
-}
+          <h2>
+            <a href="https://yangshuang.me/typography" target="_blank">Typography<br><span>Writing System<br>Language Support<br>Case Sentive & Italy<br>Font Weight<br>Length<br>Alignment<br>Height</span></a></h2>
 
-::-moz-placeholder {
-   color: #999;
-   text-align: center;
-}
+          <h2>
+            <a href="https://yangshuang.me/time" target="_blank"> Data Formates <br><span>e.g. Time and Dates</span></a></h2>
 
-:-ms-input-placeholder {
-   color: #999;
-   text-align: center;
-}
-
-</style>
-
-<body>
-
-	<div id="loginbox" class="lightbox" >
-		<div class="horizontal">
-			<div class="vertical">
-				<div class="box">
-					<input style="margin: 4px; background-color: #333333; border-color:#000000; padding-top:8px; padding-bottom: 8px; padding-left: 20px;padding-right: 20px;text-align: center;border-radius:8px;outline:none;" id="password" type="password" placeholder="Enter password..." />
-					<button id="loginbutton" type="button">Go</button>
-					<p id="wrongPassword" style="display: none">wrong password</p>
-				</div>
-			</div>
-		</div>
-	</div>
-
-
-
-	<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-
-
-	 <script type="text/javascript" src="https://rawcdn.githack.com/chrisveness/crypto/7067ee62f18c76dd4a9d372a00e647205460b62b/sha1.js"></script>
-
-	<script type="text/javascript">
-	"use strict";
-
-
-	function loadPage(pwd) {
-
-		var hash= pwd;
-		hash= Sha1.hash(pwd);
-		var url= hash + "/i18n.html";
-
-		$.ajax({
-			url : url,
-			dataType : "html",
-			success : function(data) {
-
-				window.location= url;
-
-			},
-			error : function(xhr, ajaxOptions, thrownError) {
-
-
-				parent.location.hash= hash;
-
-				//$("#wrongPassword").show();
-				$("#password").attr("placeholder","wrong password");
-				$("#password").val("");
-			}
-		});
-	}
-
-
-	$("#loginbutton").on("click", function() {
-		loadPage($("#password").val());
-	});
-	$("#password").keypress(function(e) {
-		if (e.which == 13) {
-
-			loadPage($("#password").val());
-		}
-	});
-	$("#password").focus();
-
-	</script>
-
-</body>
+          <h2>
+            <a href="https://yangshuang.me/rtl" target="_blank" >Layout <br><span>e.g. RTL Design Guideline</span></a></h2>
+          </article>
+      </div>
+    </section>
+  </body>
 </html>
